@@ -1,4 +1,4 @@
-#!/home/moringa/Documents/Worlds-views/virtual/bin/python
+#!/home/moringa/Documents/Worlds-views/virtual/bin/python2
 # -*- coding: utf-8 -*-
 import re
 import sys
