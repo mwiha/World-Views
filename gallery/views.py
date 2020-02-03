@@ -2,8 +2,8 @@ from django.shortcuts import render
 from django.http  import HttpResponse
 
 # Create your views here.
-def welcome(request):
-    return render('index.html')
+def index(request):
+    return render(request, 'index.html')
 
 def gallery(request):
     images = Image.objects.all()
@@ -19,6 +19,6 @@ def search_category(request):
 
         return render(request, 'category.html', {"message": message, "images": searched_images})
 
-        else:
-            message = "You haven't searched for any term"
+    else:
+        message = "You haven't searched for any term"
         return render(request, 'category.html', {"message": message})
