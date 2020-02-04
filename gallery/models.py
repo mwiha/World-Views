@@ -4,7 +4,7 @@ from django.db import models
 class Image(models.Model):
     image_name = models.CharField(max_length=30)
     image_description = models.TextField()
-    image = models.ImageField(upload_to = 'images/',default='')
+    image = models.ImageField(upload_to='gallery/')
     image_location = models.ForeignKey('Location',default='')
  
 
@@ -41,19 +41,6 @@ class Category(models.Model):
     def search_by_image_category(cls,search_term):
         images = cls.objects.filter(image_category__category_name__icontains=search_term)
         return images
-
-
-class Category(models.Model):
-    category_name = models.CharField(max_length =30)
-
-    def save_category(self):
-        self.save()
-
-    def delete_category(self):
-        self.delete()
-
-    def __str__(self):
-        return self.category_name
 
 
 class Location(models.Model):
