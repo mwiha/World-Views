@@ -1,6 +1,6 @@
 # World-views
 
-## Description
+<!-- ## Description
 
 - This app is used to display images from different locations and categories. 
 - A user can click on an image to view the image details.
@@ -15,4 +15,4 @@
 3. View the most recent posts.
 4. Search for different categories of photos. (ie. Travel, Food).
 5. Copy a link to the photo to share with my friends.
-6. View photos based on the location they were taken.
+6. View photos based on the location they were taken. -->
