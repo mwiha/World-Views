@@ -48,3 +48,8 @@
 | Display picture categories | **Enter search term on the search bar** | Display search results if search term meets database categories |
 | Display pictures from different location |**Click 'Location on the navigation bar**|Displays a select field that allows users to search for pictures from a specific country/location|
 
+## Technologies Used
+
+- python/Django1.11
+- bootstrap3
+- Postgresql
