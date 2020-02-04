@@ -40,6 +40,14 @@ class Image(models.Model):
     image_description = models.TextField()
     image = models.ImageField(upload_to='gallery/',default='default.jpg')
     image_location = models.ForeignKey(Location)
+    # image_category = models.ForeignKey(Category,default = "")
+
+    @classmethod
+    def search_by_image_category(cls,search_term):
+        images = cls.objects.filter(image_category__category_name__icontains=search_term)
+        return images
+
+
     
  
 
