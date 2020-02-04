@@ -32,3 +32,19 @@
 
     $ python3.6 manage.py runserver
 
+### Prerequisites
+
+  * python3.6 
+  * pip
+  * postgres database
+  * virtualenv
+  * django
+
+  ## BDD
+  | Behaviour | Input | Output |
+| :---------------- | :---------------: | ------------------: |
+| Display gallery page | **On page load** | Site description and gallery pictures |
+| Display picture information | **Click gallery on picture** | Opens a modal that shows a large version of the picture and its details |
+| Display picture categories | **Enter search term on the search bar** | Display search results if search term meets database categories |
+| Display pictures from different location |**Click 'Location on the navigation bar**|Displays a select field that allows users to search for pictures from a specific country/location|
+
