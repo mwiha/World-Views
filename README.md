@@ -53,3 +53,13 @@
 - python/Django1.11
 - bootstrap3
 - Postgresql
+
+## Known Bugs
+- when you search it does not take you to the photos
+
+## Contributions
+- For more informations or questions:
+   alicemwihaki99@gmail.com
+
+## License
+- This project is Licensed under MIT. ©2019 Copyright. 
